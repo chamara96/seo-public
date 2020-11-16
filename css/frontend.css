@@ -4578,9 +4578,9 @@ Created using IcoMoon - icomoon.io
 }
 
 .navbar .navbar-nav .nav-link:not(.btn) {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 0.7142em;
-  padding: 0.5rem 0.7rem;
+  /* padding: 0.5rem 0.7rem; */
   line-height: 1.625rem;
 }
 
@@ -4639,8 +4639,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .navbar .navbar-toggler {
-  width: 37px;
-  height: 27px;
+  /* width: 37px;
+  height: 27px; */
   outline: 0;
   cursor: pointer;
 }
