@@ -1,0 +1,336 @@
+.mt-50 {
+	margin-top: 50px;
+}
+
+.remove-padding {
+	padding: 0!important;
+}
+
+.img-responsive, .full-width{width:100%; height: 250px;}
+ 
+ 
+.owl-controls .owl-pagination{
+  text-align: center;
+}
+
+.owl-controls .owl-page{
+  display: inline-block;
+  margin:0 4px;
+}
+
+.blog-slider .owl-controls .owl-page span{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  -webkit-transition: .2s linear;
+  -o-transition: .2s linear;
+  -moz-transition: .2s linear;
+  transition: .2s linear;
+  background:#e8e8e8;
+}
+
+.blog-slider .owl-controls .owl-page.active span, 
+.blog-slider .owl-controls .owl-page:hover span{
+  background-color:#212121;
+}
+
+.blog-slider .owl-controls {
+	margin-top:50px;
+}
+
+.blog-slider .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.blog-slider .owl-nav button {
+    position: absolute;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 0 !important;
+    background: #FFB72F !important;
+    margin-top: -25px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .blog-slider .owl-nav button i {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .blog-slider .owl-nav button span {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .blog-slider .owl-nav button.owl-next {
+    left: auto;
+    right: -60px;
+  }
+
+  .blog-slider .owl-nav button.owl-prev {
+    left: -60px;
+  }
+  .blog-slider .owl-nav button:hover {
+    background: #ec407a !important;
+  }
+  
+  .blog-slider:hover .owl-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+
+
+/*=============================================
+                        Our Blog
+=============================================*/
+.blog-slider .post {
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+
+
+.post-info {
+    height: 350px;
+    padding: 40px;
+    background: #212121;
+    transition: all 0.2s ease;
+    overflow-y: scroll;
+}
+.post:hover .post-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.post .post-img {
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+.post .post-img img {
+  width: 100% !important;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+}
+
+.post-info h3 {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom:0px;
+}
+.post-info h6 {
+   color: #ec407a;
+   font-size:12px;
+   
+}
+
+.post-info a {
+    color:#fff;
+    -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.post-info a:hover {
+    color:#ec407a;
+}
+
+.post-info p {
+	margin-top: 20px;
+	color: #fff;
+}
+
+a.readmore {
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700; 
+}
+
+a:hover.readmore {
+    color: #ec407a;
+}
+
+a.readmore > span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*=============================================
+                        Spot offers
+=============================================*/
+
+#spot-list .owl-controls .owl-page span{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  -webkit-transition: .2s linear;
+  -o-transition: .2s linear;
+  -moz-transition: .2s linear;
+  transition: .2s linear;
+  background:#e8e8e8;
+}
+
+#spot-list .owl-controls .owl-page.active span, 
+#spot-list .owl-controls .owl-page:hover span{
+  background-color:#212121;
+}
+
+#spot-list .owl-controls {
+	margin-top:50px;
+}
+
+#spot-list .owl-nav {
+    position: absolute;
+    top: 38%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#spot-list .owl-nav button {
+    position: absolute;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 0 !important;
+    background: #FFB72F !important;
+    margin-top: -25px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #spot-list .owl-nav button i {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  #spot-list .owl-nav button span {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  #spot-list .owl-nav button.owl-next {
+    left: auto;
+    right: -60px;
+  }
+
+  #spot-list .owl-nav button.owl-prev {
+    left: -60px;
+  }
+  #spot-list .owl-nav button:hover {
+    background: #ec407a !important;
+  }
+  
+  #spot-list:hover .owl-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #spot-list .owl-dots {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .tw-work-process p{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  /*=============================================
+                        Industries
+=============================================*/
+
+#indus-list .owl-controls .owl-page span{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  -webkit-transition: .2s linear;
+  -o-transition: .2s linear;
+  -moz-transition: .2s linear;
+  transition: .2s linear;
+  background:#e8e8e8;
+}
+
+#indus-list .owl-controls .owl-page.active span, 
+#indus-list .owl-controls .owl-page:hover span{
+  background-color:#212121;
+}
+
+#indus-list .owl-controls {
+	margin-top:50px;
+}
+
+#indus-list .owl-nav {
+    position: absolute;
+    top: 38%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#indus-list .owl-nav button {
+    position: absolute;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 0 !important;
+    background: #FFB72F !important;
+    margin-top: -25px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #indus-list .owl-nav button i {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  #indus-list .owl-nav button span {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  #indus-list .owl-nav button.owl-next {
+    left: auto;
+    right: -60px;
+  }
+
+  #indus-list .owl-nav button.owl-prev {
+    left: -60px;
+  }
+  #indus-list .owl-nav button:hover {
+    background: #ec407a !important;
+  }
+  
+  #indus-list:hover .owl-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #indus-list .owl-dots {
+    margin-top: 30px;
+  }

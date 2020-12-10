@@ -1,0 +1,210 @@
+/* nav */
+
+/* , */
+
+.menu {
+    /* display: block; */
+    position: fixed;
+    /*left: 50%;*/
+    width: 100%;
+    /* top: 36px; */
+    z-index: 20;
+    /* padding-left: 10px; */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.menu ul:first-child {
+    width: 100%;
+    /* max-width: 960px; */
+    margin: 1rem auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /* align-items: initial; */
+    /* box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3); */
+}
+
+.nav-menu ul, .nav-menu a {
+    /* margin: 0;
+    padding: 0; */
+    line-height: normal;
+    list-style: none;
+    display: block;
+    position: relative;
+}
+
+.nav-menu li {
+    /* margin: 0;
+    padding: 0; */
+    line-height: normal;
+    list-style: none;
+    /* display: block; */
+    position: relative;
+}
+
+.nav-menu {
+    /* margin: 0;
+    padding: 0;
+    line-height: normal;
+    list-style: none; */
+    display: grid;
+    /* position: relative; */
+}
+
+.nav-menu ul {
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: -9999px;
+    z-index: 999;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+.nav-menu li:hover>ul {
+    left: 0;
+    opacity: 1;
+    z-index: 1000;
+}
+
+.nav-menu ul li:hover>ul {
+    top: 0;
+    left: 100%;
+}
+
+.nav-menu li {
+    text-align: center;
+    cursor: default;
+    float: left;
+    white-space: nowrap;
+}
+
+.nav-menu ul li {
+    float: none;
+}
+
+/* sub width */
+
+.nav-menu ul {
+    min-width: 12em;
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* center */
+
+.nav-center {
+    float: right;
+    right: 50%;
+}
+
+.nav-center>li {
+    left: 50%;
+}
+
+/* root */
+
+.nav-menu a {
+    padding: 0 10px;
+    /* color: #5BC0DE; */
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+/* root: active */
+
+.nav-menu>li>.nav-active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* root: hover/persistence */
+
+/* .nav-menu a:hover, .nav-menu a:focus, .nav-menu li:hover a {
+    background: rgba(85, 85, 85, 0.315);
+    color: #FFF;
+} */
+
+/* 2 */
+
+.nav-menu li li a, .nav-menu li:hover li a {
+    padding: 8px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* 2: hover/persistence */
+
+.nav-menu li:hover li a:hover, .nav-menu li:hover li a:focus, .nav-menu li:hover li:hover a {
+    background: rgb(44, 40, 40);
+}
+
+/* 3 */
+
+.nav-menu li:hover li:hover li a {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* 3: hover/persistence */
+
+.nav-menu li:hover li:hover li a:hover, .nav-menu li:hover li:hover li a:focus, .nav-menu li:hover li:hover li:hover a {
+    background: rgb(44, 40, 40);
+}
+
+/* 4 */
+
+.nav-menu li:hover li:hover li:hover li a {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* 4: hover */
+
+.nav-menu li:hover li:hover li:hover li a:hover, .nav-menu li:hover li:hover li:hover li a:focus {
+    background: rgb(44, 40, 40);
+}
+
+/* vertical */
+
+.nav-vertical {
+    max-width: 220px;
+}
+
+.nav-vertical ul {
+    top: 0;
+    left: -9999px;
+}
+
+.nav-vertical li {
+    width: 100%;
+    float: none;
+}
+
+.nav-vertical li:hover>ul {
+    left: 100%;
+}
+
+/* ========================== */
+
+nav {
+    margin: 0 0 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav:before, nav:after {
+    content: " ";
+    /* display: table; */
+}
+
+nav:after {
+    clear: both;
+}

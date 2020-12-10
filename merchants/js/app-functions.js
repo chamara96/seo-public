@@ -13,7 +13,7 @@ function svgdrawing() {
     path.style.strokeDasharray = length + ' ' + length;
     path.style.strokeDashoffset = length;
 
-    // Trigger a layout so styles are calculated & the browser
+    // Trigger a layout so styles are calculated & the browser 
     // picks up the starting position before animating
     path.getBoundingClientRect();
 
@@ -38,7 +38,7 @@ function changeUserLink(userLink) {
 }
 
 function changeWebSiteLogo(path) {
-
+   
     // console.log('path ->' + path)
     /*let e = document.querySelectorAll('#logo_img_xxx')[1];
     console.log(e);
@@ -48,7 +48,7 @@ function changeWebSiteLogo(path) {
 }
 
 function changeWebSitetab(path) {
-
+   
     // console.log('path ->' + path)
     /*let e = document.getElementsByTagName("link")[0];
     console.log(e);
@@ -56,7 +56,7 @@ function changeWebSitetab(path) {
 
 
 }
-//start copy from spot.js
+//start copy from spot.js 
 function setSpotOwl() {
     var owl = $('#spot-list');
     owl.owlCarousel({
@@ -124,7 +124,7 @@ function setIndustryOwl() {
         }
     });
 }
-//end copy from spot.js
+//end copy from spot.js 
 
 // ====================================================
 
@@ -143,9 +143,9 @@ function setSlick() {
     var html = '';
     for (let i = 0; i < merchants.length; i++) {
 
-        /*html = `<a href="${merchants[i].web_url}" class="slide"><img src="/${merchants[i].image_url}"></a>`;*/
+        /*html = `<a href="${merchants[i].web_url}" class="slide"><img src="http://blog.chamaralabs.com/${merchants[i].image_url}"></a>`;*/
         html = `<div class="slide cont" style="padding: 5px 10px; vertical-align:top"><a target="_blank" rel="noopener noreferrer" href="${merchants[i].web_url}" > <div class="port wow fadeIn">
-                 <img src="/${merchants[i].image_url}" class="img-fluid c_img" style="width:100%;"/>
+                 <img src="http://blog.chamaralabs.com/${merchants[i].image_url}" class="img-fluid c_img" style="width:100%;"/>
                 <div class="work-text-content">
                   <h3 style="color:#fff">${merchants[i].title}</h3>
                 </div>
@@ -199,16 +199,16 @@ function setBlogs(blogs) {
 
 
         html = `<div class="post item">
-        <div class="post-img"> <a target="_blank" rel="noopener noreferrer" href="/merchant/blog/${blogs[j].encode_id}/${blogs[j].slug}"> <img class="img-responsive" src="/${blogs[j].featured_image}" alt=""/></a> </div>
+        <div class="post-img"> <a target="_blank" rel="noopener noreferrer" href="http://blog.chamaralabs.com/merchent/blog/${blogs[j].encode_id}/${blogs[j].slug}"> <img class="img-responsive" src="http://blog.chamaralabs.com/${blogs[j].featured_image}" alt=""/></a> </div>
         <div class="post-info" style="margin-left:0">
-          <h3><a target="_blank" rel="noopener noreferrer" href="/merchant/blog/${blogs[j].encode_id}/${blogs[j].slug}">${blogs[j].name}</a></h3>
+          <h3><a target="_blank" rel="noopener noreferrer" href="http://blog.chamaralabs.com/merchent/blog/${blogs[j].encode_id}/${blogs[j].slug}">${blogs[j].name}</a></h3>
           <h6>${monthNames[blogs[j].published_at.substring(5, 7) - 1]} ${blogs[j].published_at.substring(8, 10)}, ${blogs[j].published_at.substring(0, 4)}</h6>
           <div style="height:185px; overflow: hidden">
           <p>${blogs[j].intro}</p>
           </div>
            </div>
            <div style="background:#212121; padding-bottom:30px">
-           <a class="readmore" target="_blank" rel="noopener noreferrer" href="/merchant/blog/${blogs[j].encode_id}/${blogs[j].slug}"><span>Read More</span></a></div>
+           <a class="readmore" target="_blank" rel="noopener noreferrer" href="http://blog.chamaralabs.com/merchent/blog/${blogs[j].encode_id}/${blogs[j].slug}"><span>Read More</span></a></div>
       </div>`;
         $("#blog-list").append(html);
     }

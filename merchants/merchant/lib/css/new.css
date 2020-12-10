@@ -1,0 +1,25 @@
+/*section {
+	display: block;
+}*/
+
+.section_wrapper {
+
+	width: 100%;
+
+
+	position: relative;
+
+}
+
+.section_wrapper.dark_bg {
+
+	background-color: #393f43;
+
+}
+
+/*img {
+	border: 0;
+    -ms-interpolation-mode: bicubic;
+    height: auto;
+	vertical-align: middle;
+}*/

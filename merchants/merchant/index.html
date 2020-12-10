@@ -1,0 +1,2536 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Basic Page Needs =====================================-->
+   <meta charset="utf-8">
+
+   <!-- Mobile Specific Metas ================================-->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Site Title- -->
+   <title>SeoTime - SEO, Social Media and Marketing HTML Template</title>
+   <link rel="icon" href="images/center_logo_new.png" type="image/x-icon">
+
+   <!-- CSS
+   ==================================================== -->
+   <!--Font Awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+   <!-- Animate CSS -->
+   <link rel="stylesheet" href="css/animate.css">
+
+   <!-- Iconic Fonts -->
+   <link rel="stylesheet" href="css/icofonts.css" />
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+
+   <!-- Owl Carousel -->
+   <link rel="stylesheet" href="css/owlcarousel.min.css" />
+
+   <!-- Video Popup -->
+   <link rel="stylesheet" href="css/magnific-popup.css" />
+
+   <!--Style CSS -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!--Responsive CSS -->
+   <link rel="stylesheet" href="css/responsive.css">
+
+   <!-- Clients CSS -->
+   <link rel="stylesheet" href="css/client.css">
+
+   <!-- Hover animation CSS -->
+   <link rel="stylesheet" href="css/animation.css">
+
+   <!-- Blog CSS -->
+   <link rel="stylesheet" href="css/blog.css">
+
+   <link rel="stylesheet" href="assets/plugins/owl-carousel/assets/owl.theme.default.min.css">
+
+   <link rel="stylesheet" href="css/editable.css">
+   <!-- Slider CSS -->
+   <link rel='stylesheet' id='rs-plugin-settings-css' href='slider/Untitled-1.css?rev=4.6.0&amp;ver=3.5.1'
+      type='text/css' media='all' />
+      <link rel="stylesheet" href="css/slider-new.css">
+
+   <link rel="stylesheet" href="css/custom-slider.css"/>
+
+   <!-- slider JS -->
+   <script type='text/javascript' src='slider/2.js?ver=1.8.3'></script>
+   <script type='text/javascript' src='slider/3.js?rev=4.6.0&amp;ver=3.5.1'></script>
+   <script type='text/javascript' src='slider/4.js?rev=4.6.0&amp;ver=3.5.1'></script>
+
+   <!-- <link rel="stylesheet" href="bb/style.css"> -->
+   <style>
+      .post-info::-webkit-scrollbar {
+         display: none;
+      }
+
+
+      .section {
+         min-height: 100vh;
+         /*min-height: 800px;*/
+         position: relative;
+         text-align: center;
+         font-family: sans-serif, arial;
+         margin: 0;
+         padding-bottom: 30px;
+         /* scroll-snap-align: start;
+         scroll-snap-stop: always; */
+      }
+
+      html {
+         /* font-family: sans-serif; */
+         /* scroll-snap-type: mandatory; */
+
+         /* this not working on safari */
+         scroll-behavior: smooth;
+         /* scroll-snap-points-y: repeat(100vh); */
+         /*scroll-snap-type: y mandatory;*/
+
+      }
+
+      /* remove scroll bar */
+      html::-webkit-scrollbar {
+         display: none;
+      }
+
+
+      .gradient-1 {
+         background-image: -webkit-linear-gradient(110deg, #ffffff 10%, #ffffff 90%), url("images/background/diamond_upholstery.png");
+         background-image: -moz-linear-gradient(110deg, #ffffff 10%, #ffffff 90%), url("images/background/diamond_upholstery.png");
+         background-image: -o-linear-gradient(110deg, #ffffff 10%, #ffffff 90%), url("images/background/diamond_upholstery.png");
+         background-image: linear-gradient(110deg, #ffffff 10%, #ffffff 90%), url("images/background/diamond_upholstery.png");
+         /* background-image: -ms-linear-gradient(110deg, #31c8b1 10%, #4ec7ff 90%),url("images/background/diamond_upholstery.png"); */
+         /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$combo-1, endColorstr=$combo-2, GradientType=1); */
+         background-blend-mode: multiply;
+         color: #fff;
+      }
+
+      .gradient-1.promo a {
+         color: #02afff
+      }
+
+      .gradient-1.promo a:hover {
+         color: #009ee7
+      }
+
+      .gradient-2 {
+         background-image: -webkit-linear-gradient(110deg, #fffdd0 10%, #fffdd0 90%), url("images/background/diamond_upholstery.png");
+         background-image: -moz-linear-gradient(110deg, #fffdd0 10%, #fffdd0 90%), url("images/background/diamond_upholstery.png");
+         background-image: -o-linear-gradient(110deg, #fffdd0 10%, #fffdd0 90%), url("images/background/diamond_upholstery.png");
+         background-image: linear-gradient(110deg, #fffdd0 10%, #fffdd0 90%), url("images/background/diamond_upholstery.png");
+         background-image: -ms-linear-gradient(110deg, #fffdd0 10%, #fffdd0 90%);
+         /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$combo-3, endColorstr=$combo-4, GradientType=1); */
+         background-blend-mode: multiply;
+         color: #fff
+      }
+
+      .gradient-3 {
+         background-image: -webkit-linear-gradient(110deg, #ffffed 10%, #ffffed 90%), url("images/background/diamond_upholstery.png");
+         background-image: -moz-linear-gradient(110deg, #ffffed 10%, #ffffed 90%), url("images/background/diamond_upholstery.png");
+         background-image: -o-linear-gradient(110deg, #ffffed 10%, #ffffed 90%), url("images/background/diamond_upholstery.png");
+         background-image: linear-gradient(110deg, #ffffed 10%, #ffffed 90%), url("images/background/diamond_upholstery.png");
+         background-image: -ms-linear-gradient(left, #ffffed, #ffffed);
+         /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$combo-5, endColorstr=$combo-6, GradientType=1); */
+         background-blend-mode: multiply;
+         color: #2f2f2c;
+      }
+
+      .gradient-4 {
+         background-image: -webkit-linear-gradient(110deg, #f5f5dc 10%, #f5f5dc 90%), url("images/background/diamond_upholstery.png");
+         background-image: -moz-linear-gradient(110deg, #f5f5dc 10%, #f5f5dc 90%), url("images/background/diamond_upholstery.png");
+         background-image: -o-linear-gradient(110deg, #f5f5dc 10%, #f5f5dc 90%), url("images/background/diamond_upholstery.png");
+         background-image: linear-gradient(110deg, #f5f5dc 10%, #f5f5dc 90%), url("images/background/diamond_upholstery.png");
+         background-image: -ms-linear-gradient(110deg, #f5f5dc 10%, #f5f5dc 90%);
+         /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$combo-7, endColorstr=$combo-8, GradientType=1); */
+         background-blend-mode: multiply;
+         color: #fff
+      }
+
+      .gradient-5 {
+         background-image: -webkit-linear-gradient(110deg, #53c1d1 10%, #4d6d9a 90%), url("images/background/diamond_upholstery.png");
+         background-image: -moz-linear-gradient(110deg, #53c1d1 10%, #4d6d9a 90%), url("images/background/diamond_upholstery.png");
+         background-image: -o-linear-gradient(110deg, #53c1d1 10%, #4d6d9a 90%), url("images/background/diamond_upholstery.png");
+         background-image: linear-gradient(110deg, #53c1d1 10%, #4d6d9a 90%), url("images/background/diamond_upholstery.png");
+         background-image: -ms-linear-gradient(110deg, #53c1d1 10%, #4d6d9a 90%);
+         /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$combo-9, endColorstr=$combo-10, GradientType=1); */
+         background-blend-mode: multiply;
+         color: #fff
+      }
+
+      .gradient-6 {
+         background-image: -webkit-linear-gradient(110deg, #faf0e6 10%, #faf0e6 90%), url("images/background/diamond_upholstery.png");
+         background-image: -moz-linear-gradient(110deg, #faf0e6 10%, #faf0e6 90%), url("images/background/diamond_upholstery.png");
+         background-image: -o-linear-gradient(110deg, #faf0e6 10%, #faf0e6 90%), url("images/background/diamond_upholstery.png");
+         background-image: linear-gradient(110deg, #faf0e6 10%, #faf0e6 90%), url("images/background/diamond_upholstery.png");
+         background-image: -ms-linear-gradient(110deg, #faf0e6 10%, #faf0e6 90%);
+         /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$combo-11, endColorstr=$combo-12, GradientType=1); */
+         background-blend-mode: multiply;
+         color: #fff
+      }
+
+      .gradient-7 {
+         background-image: -webkit-linear-gradient(110deg, #f7e7ce 10%, #f7e7ce 90%), url("images/background/diamond_upholstery.png");
+         background-image: -moz-linear-gradient(110deg, #f7e7ce 10%, #f7e7ce 90%), url("images/background/diamond_upholstery.png");
+         background-image: -o-linear-gradient(110deg, #f7e7ce 10%, #f7e7ce 90%), url("images/background/diamond_upholstery.png");
+         background-image: linear-gradient(110deg, #f7e7ce 10%, #f7e7ce 90%), url("images/background/diamond_upholstery.png");
+         background-image: -ms-linear-gradient(110deg, #f7e7ce 10%, #f7e7ce 90%);
+         /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$combo-13, endColorstr=$combo-14, GradientType=1); */
+         background-blend-mode: multiply;
+         color: #fff
+      }
+
+      .gradient-8 {
+         background-image: -webkit-linear-gradient(110deg, #D6FFFC 10%, #D6FFFC 90%), url("images/background/diamond_upholstery.png");
+         background-image: -moz-linear-gradient(110deg, #D6FFFC 10%, #D6FFFC 90%), url("images/background/diamond_upholstery.png");
+         background-image: -o-linear-gradient(110deg, #D6FFFC 10%, #D6FFFC 90%), url("images/background/diamond_upholstery.png");
+         background-image: linear-gradient(110deg, #D6FFFC 10%, #D6FFFC 90%), url("images/background/diamond_upholstery.png");
+         background-image: -ms-linear-gradient(110deg, #D6FFFC 10%, #D6FFFC 90%);
+         /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$combo-15, endColorstr=$combo-16, GradientType=1); */
+         background-blend-mode: multiply;
+         color: #fff
+      }
+
+      .gradient-9 {
+         background-image: -webkit-linear-gradient(110deg, #90EE90 10%, #90EE90 90%), url("images/background/diamond_upholstery.png");
+         background-image: -moz-linear-gradient(110deg, #90EE90 10%, #90EE90 90%), url("images/background/diamond_upholstery.png");
+         background-image: -o-linear-gradient(110deg, #90EE90 10%, #90EE90 90%), url("images/background/diamond_upholstery.png");
+         background-image: linear-gradient(110deg, #90EE90 10%, #90EE90 90%), url("images/background/diamond_upholstery.png");
+         background-image: -ms-linear-gradient(110deg, #90EE90 10%, #90EE90 90%);
+         /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$combo-17, endColorstr=$combo-18, GradientType=1); */
+         background-blend-mode: multiply;
+         color: #fff
+      }
+
+      .gradient-10 {
+         background-image: -webkit-linear-gradient(110deg, #e69e8a 10%, #e6bdb1 90%), url("images/background/diamond_upholstery.png");
+         background-image: -moz-linear-gradient(110deg, #e69e8a 10%, #e6bdb1 90%), url("images/background/diamond_upholstery.png");
+         background-image: -o-linear-gradient(110deg, #e69e8a 10%, #e6bdb1 90%), url("images/background/diamond_upholstery.png");
+         background-image: linear-gradient(110deg, #e69e8a 10%, #e6bdb1 90%), url("images/background/diamond_upholstery.png");
+         background-image: -ms-linear-gradient(110deg, #e69e8a 10%, #e6bdb1 90%);
+         /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$combo-3, endColorstr=$combo-4, GradientType=1); */
+         background-blend-mode: multiply;
+         color: #fff
+      }
+
+      #logo_img_div {
+         text-align: center;
+         z-index: 100;
+         /* visibility: hidden; */
+         position: fixed;
+         top: 10%;
+         left: 50%;
+
+         -ms-transform: translate(-50%, -50%);
+         /* IE 9 */
+         -webkit-transform: translate(-50%, -50%);
+         /* Safari */
+         transform: translate(-50%, -50%);
+      }
+
+      #logo_img_xxx {
+         height: 78px;
+         opacity: 0;
+         animation: second_opacity 0.001s .3s forwards;
+      }
+
+      .nav a {
+         animation: second_opacity 3s .3s forwards;
+      }
+
+      /* #logo_img_xxx:hover {
+            -webkit-filter: drop-shadow(12px 12px 7px rgba(255, 255, 255, 0.7));
+            filter: drop-shadow(12px 12px 7px rgba(255, 255, 255, 0.7)); */
+      /* box-shadow: 0px 0px 5px #fff; */
+      /* } */
+
+      .shadowfilter {
+         -webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.80));
+         -webkit-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+         transition: all 0.5s linear;
+
+      }
+
+      .shadowfilter:hover {
+         -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
+      }
+
+
+      @keyframes second_opacity {
+         0% {
+            opacity: 0;
+         }
+
+         100% {
+            opacity: 1;
+         }
+      }
+
+
+
+
+
+
+      @media screen and (min-width: 767px) {
+
+         #mobile_head {
+            visibility: hidden;
+         }
+
+         #logo_img_div_mobi {
+            display: none;
+            visibility: hidden;
+         }
+
+         #logo_img_div_desk {
+            visibility: visible
+         }
+      }
+
+
+
+
+      @media screen and (max-width: 767px) {
+
+         /* #navi, */
+         #newheader2 {
+            display: none;
+         }
+
+         #mobile_head {
+            visibility: visible;
+
+         }
+
+         #logo_img_div_mobi {
+            display: none;
+            visibility: visible;
+         }
+
+         #logo_img_div_desk {
+            visibility: hidden;
+         }
+
+      }
+
+
+      table a {
+         color: whitesmoke;
+      }
+
+      u {
+         text-decoration: none;
+         border-bottom: 0px solid;
+      }
+
+      .nav-menu>li:hover>a::before,
+      .nav-menu>li.active>a::before {
+         color: white;
+      }
+
+      .nav-menu>li:hover u,
+      .nav-menu>li.active u {
+         border-bottom: 2px solid;
+         /* -webkit-animation: fadeinout 2s linear forwards;
+            animation: fadeinout 2s linear forwards; */
+      }
+
+      @-webkit-keyframes fadeinout {
+         0% {
+            opacity: 0;
+         }
+
+         50% {
+            opacity: 1;
+         }
+      }
+
+      @keyframes fadeinout {
+
+         0% {
+            opacity: 0;
+         }
+
+         50% {
+            opacity: 1;
+         }
+      }
+
+      .nav-menu a {
+         color: black;
+      }
+   </style>
+
+   <link rel="stylesheet" href="css/menu-new-2.css">
+   <!--link rel="stylesheet" href="css/master.css"-->
+   <!--link rel="stylesheet" href="css/portfolio.css"-->
+
+
+
+</head>
+
+<body class="bg-offwhite">
+
+   <!-- header======================-->
+
+   <header>
+
+      <div id="mobile_head" class="fixed-top pos-f-t">
+         <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+               <h5 class="text-white h4">SEO</h5>
+               <table class="table table-sm">
+                  <tbody>
+                     <tr>
+                        <td data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation"><a href="../index.html">Home</a></td>
+                        <td data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation"><a href="#tw-tech">App Technology</a></td>
+                     </tr>
+                     <tr>
+                        <td data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation"><a href="../user/index.html">User App</a></td>
+                        <td data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation"><a href="#">Blog</a></td>
+                     </tr>
+                     <tr>
+                        <td data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation"><a href="#tw-service">Our Services</a></td>
+                        <td data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation"><a href="../about.html">About Us</a></td>
+                     </tr>
+                     <tr>
+                        <td data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation"><a href="#tw-industries">Industries</a></td>
+                        <td data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation"><a href="#tw-contact">Contact Us</a></td>
+                     </tr>
+                  </tbody>
+               </table>
+               <!-- <span class="text-muted">Toggleable via the navbar brand.</span> -->
+            </div>
+         </div>
+         <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+               data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+               aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+         </nav>
+      </div>
+
+      <!-- mobile view center logo -->
+      <div id="logo_img_div_mobi" style="text-align: center;z-index: 105; position: fixed; left:40%;">
+         <a style="padding: 0;" href="/"><img id="logo_img_xxx" class="shadowfilter" src="images/center_logo_new.png"
+               alt=""></a>
+      </div>
+      <!-- ------------------------ -->
+
+      <!-- desktop view center logo -->
+      <div id="logo_img_div_desk" style="text-align: center;z-index: 105;position: fixed;; left:46%;">
+         <a style="padding: 0;" href="/"><img id="logo_img_xxx" class="shadowfilter" src="images/center_logo_new.png"
+               alt=""></a>
+      </div>
+      <!-- ----------------------- -->
+
+      <nav id="newheader2" class="menu" style="z-index: 100;">
+         <ul class="nav-menu nav-center">
+            <li class="menu-item"><a href="index.html"><u>Home</u></a></li>
+            <li class="menu-item"><a href="../user/index.html"><u>User App</u></a></li>
+            <li class="menu-item" id="sec-01"><a href="#tw-services"><u>Services</u></a>
+               <ul>
+                  <!-- <li><a href="#">Sub Nav Link</a></li> -->
+                  <li><a href="marketing.html">Marketing</a>
+                     <ul>
+                        <li><a href="spot_offer.html">Spot Offer App</a>
+                           <ul>
+                              <li><a href="delever_dynamic_offers.html">Deliver Dynamic Offers & Promotions </a>
+                              <li><a href="intelligent_statistics.html">Intelligent Statistics</a></li>
+                              <li><a href="real_time_edits.html">Real Time edits</a></li>
+                              <li><a href="get_discovered.html.html">Get discovered</a></li>
+                              <li><a href="approve_reject_leads.html">Approve / Reject leads</a></li>
+                              <li><a href="get_store_followers.html">Get store followers</a></li>
+                              <li><a href="get_more_leads.html">Get more leads via price request from users</a></li>
+                              <li><a href="better_branding.html">Better Branding</a></li>
+                              <li><a href="loyalty_offers.html">Loyalty Offers to attract repeat customers</a></li>
+                              <li><a href="one_click_chat.html">One click chat</a></li>
+                              <li><a href="social_media_integration_for_larger_reach.html">
+                                    Social Media integration for larger reach</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="lead_generation.html">Lead Generation</a></li>
+                        <li><a href="sm_marketing.html">Social Media Marketing</a></li>
+                        <li><a href="ppc.html">PPC</a></li>
+                        <li><a href="growth_hacking.html">Growth Hacking</a></li>
+                        <li><a href="web_analytics.html">Web Analytics</a></li>
+                        <li><a href="seo.html">SEO</a></li>
+                        <li><a href="sms_marketing.html">SMS Marketing</a></li>
+                        <li><a href="gmbt.html">GMBT</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="strategy.html">Strategy</a>
+                     <ul>
+                        <li><a href="omni_channel.html">Omni Channel</a></li>
+                        <li><a href="digital_strategy.html">Digital Strategy</a></li>
+                        <li><a href="brand_strategy.html">Brand Strategy</a></li>
+                        <li><a href="market_research.html">Market Research</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="design.html">Design</a>
+                     <ul>
+                        <li><a href="branding.html">Branding</a></li>
+                        <li><a href="logo_designing.html">Logo Designing</a></li>
+                        <li><a href="photo_video.html">Photography / Videograply </a></li>
+                        <li><a href="brocher_designing.html">Brocher Designing</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="development.html">Development</a>
+                     <ul>
+                        <li><a href="website_development.html">Website Development</a></li>
+                        <li><a href="ar_vr.html">AR / VR</a></li>
+                        <li><a href="app_development.html">iOS/Android app Development</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+            <!-- <li class="menu-item" id="sec-03"><a href="#tw-service"><u>Services</u></a></li> -->
+            <li class="menu-item" id="sec-02"><a href="#tw-industries"><u>Industries</u></a></li>
+
+
+            <li style="visibility: hidden;" class="menu-item"><a href="#">&nbsp;</a></li>
+
+            <li class="menu-item" id="sec-03"><a href="#tw-tech"><u>Technology</u></a>
+               <ul>
+                      <li><a href="../tech1.html">Geolocation</a></li>
+                      <li><a href="../tech2.html">Augmented Reality</a> </li>
+                      <li><a href="../tech3.html">Beacon Technology</a></li>
+                      
+                  </ul>
+            </li>
+            <li class="menu-item" id="sec-07"><a href="#tw-blog"><u>Blog</u></a></li>
+            <li class="menu-item" id="sec-08"><a href="#tw-about"><u>About Us</u></a></li>
+            <li class="menu-item" id="sec-04"><a href="#tw-contact"><u>Contact Us</u></a></li>
+         </ul>
+      </nav>
+
+
+   </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- <section id="work-process" class="rev_slider-home-page extendBg gradient-1 section"> -->
+   <section id="work-process" class="section gradient-2" style="padding-top: 90px">
+      <!-- START REVOLUTION SLIDER 4.6.0 fullwidth mode -->
+
+      <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:617px;height:617px;">
+         <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+         <ul>
+
+            <!-- SLIDE 1  -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="8000"
+               data-saveperformance="off">
+
+               <!-- LAYERS -->
+
+               <!-- LAYER NR. 1 -->
+               <div class="tp-caption lfr stl" data-x="0" data-y="100" data-speed="1400" data-start="200"
+                  data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+                  data-endspeed="200" style="z-index: 4;">
+                  <div class="slider-content">
+                     <h1> Overcome <span>COVID-19</span> <br> business scare and <br> fight the Recession. </h1>
+
+                  </div>
+
+               </div>
+
+               <!-- LAYER NR. 2 -->
+               <div class="tp-caption lfr stl" data-x="-15" data-y="400" data-speed="1400" data-start="1000"
+                  data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="7600"
+                  data-endspeed="200" style="z-index: 4;">
+                  <div class="slider-contentx">
+
+                     <p class="slider-descx" >Don’t let Coronavirus lock your business down. <br> <br> Let us help you! <br><br>
+                        </p>
+
+                  </div>
+
+               </div>
+
+               <!-- LAYER NR. 3 -->
+               <!-- <div class="tp-caption lfr stl" data-x="1" data-y="450" data-speed="1400" data-start="1300"
+                  data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="7600"
+                  data-endspeed="200" style="z-index: 4;">
+                  <div class="slider-content">
+                     <a href="#" class="btn btn-primary">Request free Consultation</a>
+                  </div>
+
+               </div> -->
+
+
+               <!-- LAYER NR. 4 -->
+               <div class="tp-caption sft stt" data-x="700" data-y="120" data-speed="1000" data-start="1500"
+                  data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="7650"
+                  data-endspeed="250" style="z-index: 5;"><img class="slider-img" src="images/client_images/home_slider/Overcome_COVID-19_business_scare.webp" alt="">
+               </div>
+
+            </li>
+
+            <!-- SLIDE 2  -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="8000"
+               data-saveperformance="off">
+
+               <!-- LAYERS -->
+
+
+
+               <!-- LAYER NR. 1 -->
+               <div class="tp-caption lfl stl" data-x="0" data-y="225" data-speed="500" data-start="500"
+                  data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+                  data-endspeed="175" style="z-index: 3;">
+                  <div class="slider-content">
+                  <h1><span>Free Digital Marketing</span></h1>
+                  </div>
+               </div>
+
+               <!-- LAYER NR. 2 -->
+               <div class="tp-caption lfr stl" data-x="1" data-y="400" data-speed="600" data-start="1200"
+                  data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+                  data-endspeed="200" style="z-index: 4;">
+                  <h3 class="slider-descx">Become a Spot Merchant</h3>
+
+               </div>
+
+               <!-- LAYER NR. 3 -->
+               <div class="tp-caption lfr stl" data-x="370" data-y="400" data-speed="725" data-start="1500"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="250" style="z-index: 5;">
+               <h3 class="slider-descx">and be entitled for</h3>
+
+            </div>
+
+               <!-- LAYER NR. 4 -->
+               <div class="tp-caption lfr stl" data-x="150" data-y="450" data-speed="850" data-start="1800"
+                  data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+                  data-endspeed="300" style="z-index: 6;">
+                  <h3 class="slider-descx">free marketing service</h3>
+
+               </div>
+
+               <!-- LAYER NR. 5 -->
+               <!-- <div class="tp-caption sft stt" data-x="572" data-y="147" data-speed="900" data-start="3000"
+                  data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="7800"
+                  data-endspeed="200" style="z-index: 7;"><img src="slider/goldfish-2.png" alt="">
+               </div> -->
+
+               <!-- LAYER NR. 6 -->
+               <!-- <div class="tp-caption sfb stl" data-x="-3" data-y="388" data-speed="900" data-start="3000"
+                  data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="7800"
+                  data-endspeed="200" style="z-index: 8;"><img src="slider/goldfish-1.png" alt="">
+               </div> -->
+
+               <!-- LAYER NR. 7 -->
+               <div class="tp-caption sfb str" data-x="751" data-y="150" data-speed="900" data-start="3000"
+               data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="200" style="z-index: 9;">
+               <img class="slider-img" src="images/client_images/home_slider/free_digital_marketing.webp" alt="">
+            </div>
+
+
+            </li>
+
+
+            <!-- SLIDE 3  -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="100" data-delay="8000"
+            data-saveperformance="off">
+
+            <!-- LAYERS -->
+
+            <!-- LAYER NR. 1 -->
+            <div class="tp-caption lfl stl" data-x="0" data-y="200" data-speed="300" data-start="900"
+               data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="500" style="z-index: 3;">
+
+               <div class="slider-content">
+                  <h1>Get  <span>More Customer</span> <br> Visits! </h1>
+               </div>
+            </div>
+
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption lfl stl" data-x="20" data-y="400" data-speed="300" data-start="1200"
+               data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="500" style="z-index: 3;">
+
+               <div class="slider-contentx">
+
+                  <p class="slider-descx">Increase your sales by attracting <br><br> new & repeat customers to your stores
+                  </p>
+
+               </div>
+            </div>
+
+            <!-- LAYER NR. 3 -->
+            <!-- <div class="tp-caption lfl stl" data-x="0" data-y="400" data-speed="500" data-start="1500"
+               data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="7500"
+               data-endspeed="175" style="z-index: 3;">
+
+               <div class="slider-content">
+                  <a href="#" class="btn btn-primary">Request free Consultation</a>
+               </div>
+            </div> -->
+
+            <!-- LAYER NR. 4 -->
+            <div class="tp-caption lfr stl" data-x="570" data-y="100" data-speed="1500" data-start="1200"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="1000" style="z-index: 4;">
+               <img class="slider-img" src="images/client_images/home_slider/get_more_customer_visit.webp" alt="">
+            </div>
+
+         </li>
+
+            <!-- LAYER NR. 5 -->
+            <!-- <div class="tp-caption lfr stl" data-x="751" data-y="100" data-speed="1100" data-start="1200"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="7600"
+               data-endspeed="200" style="z-index: 4;">
+               <img src="images/slider/slider1.png" alt="">
+            </div>
+
+            </li> -->
+
+            <!-- SLIDE 4  -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="8000"
+            data-saveperformance="off">
+
+            <!-- LAYERS -->
+
+            <!-- LAYER NR. 1 -->
+            <div class="tp-caption lfr stl" data-x="1" data-y="200" data-speed="1000" data-start="900"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="200" style="z-index: 4;">
+               <div class="slider-content">
+                  <h1>  <span>Guaranteed Leads!</span> </h1>
+               </div>
+
+            </div>
+
+
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption lfr stl" data-x="65" data-y="380" data-speed="1000" data-start="1100"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="200" style="z-index: 4;">
+               <div class="slider-contentx">
+
+                  <p class="slider-descx">See your business soar with our <br><br> Guaranteed Lead service</p>
+
+               </div>
+
+            </div>
+
+
+            <!-- LAYER NR. 3 -->
+            <!-- <div class="tp-caption lfr stl" data-x="1" data-y="400" data-speed="1000" data-start="1300"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="7600"
+               data-endspeed="200" style="z-index: 4;">
+               <div class="slider-content">
+                  <a href="#" class="btn btn-primary">Request free Consultation</a>
+               </div>
+
+            </div> -->
+
+            <!-- LAYER NR. 4 -->
+            <div class="tp-caption sft stt" data-x="650" data-y="200" data-speed="1000" data-start="1500"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="250" style="z-index: 5;"><img style="width: 600px; height: auto;" src="images/client_images/home_slider/guranted_lead.webp" alt="">
+            </div>
+
+         </li>
+
+            <!-- SLIDE 5  -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="8000"
+            data-saveperformance="off">
+            <!-- LAYERS -->
+
+
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption lfl stl" data-x="10" data-y="150" data-speed="500" data-start="900"
+               data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="175" style="z-index: 3;">
+               <div class="slider-content">
+               <h1><span> Get Discovered!</span></h1>
+               </div>
+            </div>
+
+            <!-- LAYER NR. 3 -->
+            <div class="tp-caption lfr stl" data-x="-45" data-y="350" data-speed="600" data-start="1200"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="200" style="z-index: 4;">
+               <h4 class="slider-descx" >Advertise your products & services on</h4>
+               <!-- <img src="slider/be-creative.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 4 -->
+            <div class="tp-caption lfr stl" data-x="80" data-y="400" data-speed="725" data-start="1500"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="250" style="z-index: 5;">
+               <h4 class="slider-descx">Spot Offers app to</h4>
+               <!-- <img src="slider/get-noticed.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 5 -->
+            <div class="tp-caption lfr stl" data-x="20" data-y="450" data-speed="850" data-start="1800"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="300" style="z-index: 6;">
+               <h4 class="slider-descx">attract customers near you</h4>
+               <!-- <img src="slider/see-results.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 6 -->
+            <!-- <div class="tp-caption sft stt" data-x="572" data-y="147" data-speed="900" data-start="3000"
+               data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="7800"
+               data-endspeed="200" style="z-index: 7;"><img src="slider/goldfish-2.png" alt="">
+            </div> -->
+
+            <!-- LAYER NR. 7 -->
+            <!-- <div class="tp-caption sfb stl" data-x="-3" data-y="388" data-speed="900" data-start="3000"
+               data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="7800"
+               data-endspeed="200" style="z-index: 8;"><img src="slider/goldfish-1.png" alt="">
+            </div> -->
+
+            <!-- LAYER NR. 8 -->
+            <div class="tp-caption sfb str" data-x="600" data-y="194" data-speed="900" data-start="3000"
+               data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="200" style="z-index: 9;">
+               <img style="width: 800;" src="images/client_images/home_slider/get_discoverd.webp" alt="">
+            </div>
+
+            <!-- LAYER NR. 9 -->
+            <!-- <div class="tp-caption tp-fade fadeout"
+       data-x="297"
+       data-y="406" 
+      data-speed="900"
+      data-start="3800"
+      data-easing="easeOutExpo"
+      data-elementdelay="0"
+      data-endelementdelay="0"
+       data-end="7800"
+data-endspeed="200"
+
+      style="z-index: 10;"><img src="slider/get-some-moxie.png" alt="">
+   </div> -->
+         </li>
+
+            <!-- SLIDE 6 -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="8000"
+            data-saveperformance="off">
+            <!-- MAIN IMAGE -->
+            <!-- <img src="wp-content/plugins/revslider/images/transparent.png"
+ style='background-color:#3fb4c6' alt="slide-bg-aqua-medium"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
+            <!-- LAYERS -->
+
+            <!-- LAYER NR. 1 -->
+            <div class="tp-caption tp-fade" data-x="-200" data-y="0" data-speed="750" data-start="0"
+               data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="300" data-captionhidden="on" style="z-index: 2;">
+
+               <!-- <img src="wp-content/uploads/2013/04/header-overlay-faded.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption lfl stl" data-x="-100" data-y="100" data-speed="500" data-start="900"
+               data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="175" style="z-index: 3;">
+               <!-- <img src="start-something.png" alt="">  -->
+               <h1 style="font-size: 50px;font-weight: 800;">Digital Marketing = 
+               </h1>
+            </div>
+            <div class="tp-caption lfl stl" data-x="370" data-y="100" data-speed="500" data-start="1400"
+               data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="175" style="z-index: 3;">
+               <!-- <img src="start-something.png" alt="">  -->
+               <h1 style="font-size: 50px;font-weight: 800;"> Increase Visibility = 
+               </h1>
+            </div>
+            <div class="tp-caption lfl stl" data-x="850" data-y="100" data-speed="500" data-start="1900"
+               data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="175" style="z-index: 3;">
+               <!-- <img src="start-something.png" alt="">  -->
+              
+            <div class="slider-content">
+               <h1 style="font-size: 50px;font-weight: 800;"> 
+                  <span>
+                  Higher Sales!</span>
+               </h1>
+            </div>
+            </div>
+
+            <!-- LAYER NR. 3 -->
+            <div class="tp-caption lfr stl" data-x="1" data-y="300" data-speed="1000" data-start="2100"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="800" style="z-index: 4;">
+               <h3 class="slider-descx">If you are not investing in digital marketing,</h3>
+               <!-- <img src="slider/be-creative.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 4 -->
+            <!-- <div class="tp-caption lfr stl"
+    data-x="330"
+    data-y="300" 
+   data-speed="725"
+   data-start="1500"
+   data-easing="easeInOutQuint"
+   data-elementdelay="0"
+   data-endelementdelay="0"
+    data-end="7650"
+data-endspeed="250"
+
+   style="z-index: 5;">
+   <h4>on Spot Offers app to</h4> -->
+            <!-- <img src="slider/get-noticed.png" alt=""> -->
+            <!-- </div> -->
+
+            <!-- LAYER NR. 5 -->
+            <div class="tp-caption lfr stl" data-x="1" data-y="350" data-speed="1000" data-start="2300"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="500" style="z-index: 6;">
+               <h3 class="slider-descx" >you are losing money.</h3>
+               <!-- <img src="slider/see-results.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 6 -->
+            <!-- <div class="tp-caption sft stt" data-x="572" data-y="10" data-speed="900" data-start="3000"
+               data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="7800"
+               data-endspeed="200" style="z-index: 7;">
+               <img src="slider/goldfish-2.png" alt="">
+            </div> -->
+
+            <!-- LAYER NR. 7 -->
+            <!-- <div class="tp-caption sfb stl" data-x="-3" data-y="388" data-speed="900" data-start="3000"
+               data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="7800"
+               data-endspeed="200" style="z-index: 8;"><img src="slider/goldfish-1.png" alt="">
+            </div> -->
+
+            <!-- LAYER NR. 8 -->
+            <div class="tp-caption sfb str" data-x="651" data-y="194" data-speed="900" data-start="3000"
+               data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="200" style="z-index: 9;">
+               <img class="slider-img" src="images/client_images/home_slider/digital_marketing_increase_visiblty.webp" alt="">
+            </div>
+
+            <!-- LAYER NR. 9 -->
+            <!-- <div class="tp-caption tp-fade fadeout"
+    data-x="297"
+    data-y="406" 
+   data-speed="900"
+   data-start="3800"
+   data-easing="easeOutExpo"
+   data-elementdelay="0"
+   data-endelementdelay="0"
+    data-end="7800"
+data-endspeed="200"
+
+   style="z-index: 10;"><img src="slider/get-some-moxie.png" alt="">
+</div> -->
+         </li>
+
+            <!-- SLIDE 1  -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="8000"
+            data-saveperformance="off">
+            <!-- MAIN IMAGE -->
+            <!-- <img src="wp-content/plugins/revslider/images/transparent.png"
+    style='background-color:#3fb4c6' alt="slide-bg-aqua-medium"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
+            <!-- LAYERS -->
+
+            <!-- LAYER NR. 1 -->
+            <div class="tp-caption tp-fade" data-x="-200" data-y="0" data-speed="750" data-start="0"
+               data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="300" data-captionhidden="on" style="z-index: 2;">
+
+               <!-- <img src="wp-content/uploads/2013/04/header-overlay-faded.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption lfl stl" data-x="60" data-y="200" data-speed="500" data-start="900"
+               data-easing="easeOutExpo" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="175" style="z-index: 3;">
+               <!-- <img src="start-something.png" alt="">  -->
+               <div class="slider-content">
+               <h1><span> Stand Out!</span></h1>
+               </div>
+            </div>
+
+            <!-- LAYER NR. 3 -->
+            <div class="tp-caption lfr stl" data-x="1" data-y="350" data-speed="600" data-start="1200"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="200" style="z-index: 4;">
+               <h3 class="slider-descx">Our digital marketing strategy</h3>
+               <!-- <img src="slider/be-creative.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 4 -->
+            <div class="tp-caption lfr stl" data-x="15" data-y="400" data-speed="725" data-start="1500"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="250" style="z-index: 5;">
+               <h3 class="slider-descx"> brings you out of the crowd</h3>
+               <!-- <img src="slider/get-noticed.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 5 -->
+            <div class="tp-caption lfr stl" data-x="-70" data-y="450" data-speed="850" data-start="1800"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="300" style="z-index: 6;">
+               <h3 class="slider-descx">with the right push in the right direction</h3>
+               <!-- <img src="slider/see-results.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 6 -->
+            <!-- <div class="tp-caption sft stt" data-x="572" data-y="100" data-speed="900" data-start="3000"
+               data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="7800"
+               data-endspeed="200" style="z-index: 7;">
+               <img src="slider/goldfish-2.png" alt="">
+            </div> -->
+
+            <!-- LAYER NR. 7 -->
+            <!-- <div class="tp-caption sfb stl" data-x="-3" data-y="388" data-speed="900" data-start="3000"
+               data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="7800"
+               data-endspeed="200" style="z-index: 8;"><img src="slider/goldfish-1.png" alt="">
+            </div> -->
+
+            <!-- LAYER NR. 8 -->
+            <div class="tp-caption sfb str" data-x="551" data-y="100" data-speed="900" data-start="3000"
+               data-easing="easeOutCubic" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="200" style="z-index: 9;">
+               <img class="slider-img" src="images/client_images/home_slider/stand_out.webp" alt="">
+            </div>
+
+            <!-- LAYER NR. 9 -->
+            <!-- <div class="tp-caption tp-fade fadeout"
+       data-x="297"
+       data-y="406" 
+      data-speed="900"
+      data-start="3800"
+      data-easing="easeOutExpo"
+      data-elementdelay="0"
+      data-endelementdelay="0"
+       data-end="7800"
+data-endspeed="200"
+
+      style="z-index: 10;"><img src="slider/get-some-moxie.png" alt="">
+   </div> -->
+         </li>
+
+            <!-- SLIDE 8  -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="8000"
+            data-saveperformance="off">
+            <!-- MAIN IMAGE -->
+            <!-- <img src="wp-content/plugins/revslider/images/transparent.png"
+ style='background-color:#3fb4c6' alt="slide-bg-aqua-medium"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
+            <!-- LAYERS -->
+
+
+
+            <!-- LAYER NR. 1 -->
+            <div class="tp-caption lfr stl" data-x="-90" data-y="150" data-speed="1400" data-start="900"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="200" style="z-index: 4;">
+               <div class="slider-content">
+                  <h1> Adapt to new technology & <br> stay ahead of <span> competition!</span> </h1>
+                  <!-- <p class="slider-desc">In today's digital age investing in new technology keeps you ahead of competition. <br> With Spot Offers you always get a Head Start</p>
+      <a href="#" class="btn btn-primary">Request free Consultation</a> -->
+               </div>
+               <!-- <img src="slider/be-creative.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption lfr stl" data-x="70" data-y="350" data-speed="1400" data-start="1000"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="200" style="z-index: 4;">
+               <div class="slider-content">
+                  <!-- <h1> Adapt <span>new technology</span> <br> & stay ahead! </h1> -->
+                  <p class="slider-descx">Use new technology but <br><br> without any <br><br> Technology Investment!</p>
+                  <!-- <a href="#" class="btn btn-primary">Request free Consultation</a> -->
+               </div>
+               <!-- <img src="slider/be-creative.png" alt=""> -->
+            </div>
+
+            <!-- LAYER NR. 3 -->
+            <!-- <div class="tp-caption lfr stl" data-x="1" data-y="400" data-speed="1400" data-start="1300"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="7600"
+               data-endspeed="200" style="z-index: 4;">
+               <div class="slider-content"> -->
+                  <!-- <h1> Adapt <span>new technology</span> <br> & stay ahead! </h1>
+<p class="slider-desc">In today's digital age investing in new technology keeps you ahead of competition. <br> With Spot Offers you always get a Head Start</p> -->
+                  <!-- <a href="#" class="btn btn-primary">Request free Consultation</a>
+               </div> -->
+               <!-- <img src="slider/be-creative.png" alt=""> -->
+            <!-- </div> -->
+
+
+            <!-- LAYER NR. 4 -->
+            <div class="tp-caption sft stt" data-x="620" data-y="100" data-speed="1000" data-start="1500"
+               data-easing="easeInOutQuint" data-elementdelay="0" data-endelementdelay="0" data-end="8000"
+               data-endspeed="250" style="z-index: 5;"><img class="slider-img"  src="images/client_images/home_slider/adapt_new_technology.webp" alt="">
+            </div>
+
+
+
+         </li>
+
+         </ul>
+
+
+      </div>
+
+      <script type="text/javascript">
+         /******************************************
+      -	PREPARE PLACEHOLDER FOR SLIDER	-
+   ******************************************/
+
+
+         var setREVStartSize = function () {
+            var tpopt = new Object();
+            tpopt.startwidth = 1200;
+            tpopt.startheight = 617;
+            tpopt.container = jQuery('#rev_slider_1_1');
+            tpopt.fullScreen = "off";
+            tpopt.forceFullWidth = "off";
+
+            tpopt.container.closest(".rev_slider_wrapper").css({
+               height: tpopt.container.height()
+            });
+            tpopt.width = parseInt(tpopt.container.width(), 0);
+            tpopt.height = parseInt(tpopt.container.height(), 0);
+            tpopt.bw = tpopt.width / tpopt.startwidth;
+            tpopt.bh = tpopt.height / tpopt.startheight;
+            if (tpopt.bh > tpopt.bw) tpopt.bh = tpopt.bw;
+            if (tpopt.bh < tpopt.bw) tpopt.bw = tpopt.bh;
+            if (tpopt.bw < tpopt.bh) tpopt.bh = tpopt.bw;
+            if (tpopt.bh > 1) {
+               tpopt.bw = 1;
+               tpopt.bh = 1
+            }
+            if (tpopt.bw > 1) {
+               tpopt.bw = 1;
+               tpopt.bh = 1
+            }
+            tpopt.height = Math.round(tpopt.startheight * (tpopt.width / tpopt.startwidth));
+            if (tpopt.height > tpopt.startheight && tpopt.autoHeight != "on") tpopt.height = tpopt.startheight;
+            if (tpopt.fullScreen == "on") {
+               tpopt.height = tpopt.bw * tpopt.startheight;
+               var cow = tpopt.container.parent().width();
+               var coh = jQuery(window).height();
+               if (tpopt.fullScreenOffsetContainer != undefined) {
+                  try {
+                     var offcontainers = tpopt.fullScreenOffsetContainer.split(",");
+                     jQuery.each(offcontainers, function (e, t) {
+                        coh = coh - jQuery(t).outerHeight(true);
+                        if (coh < tpopt.minFullScreenHeight) coh = tpopt.minFullScreenHeight
+                     })
+                  } catch (e) {}
+               }
+               tpopt.container.parent().height(coh);
+               tpopt.container.height(coh);
+               tpopt.container.closest(".rev_slider_wrapper").height(coh);
+               tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(
+                  coh);
+               tpopt.container.css({
+                  height: "100%"
+               });
+               tpopt.height = coh;
+            } else {
+               tpopt.container.height(tpopt.height);
+               tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);
+               tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(
+                  tpopt
+                  .height);
+            }
+         };
+
+         /* CALL PLACEHOLDER */
+         setREVStartSize();
+
+
+         var tpj = jQuery;
+         tpj.noConflict();
+         var revapi1;
+
+         tpj(document).ready(function () {
+
+            if (tpj('#rev_slider_1_1').revolution == undefined)
+               revslider_showDoubleJqueryError('#rev_slider_1_1');
+            else
+               revapi1 = tpj('#rev_slider_1_1').show().revolution({
+                  dottedOverlay: "none",
+                  delay: 9000,
+                  startwidth: 1200,
+                  startheight: 617,
+                  hideThumbs: 200,
+
+                  thumbWidth: 100,
+                  thumbHeight: 50,
+                  thumbAmount: 2,
+
+
+                  simplifyAll: "off",
+
+                  
+
+                  navigationType: "bullet",
+                  navigationArrows: "hesperiden",
+                  navigationStyle: "round",
+
+                  touchenabled: "on",
+                  onHoverStop: "off",
+                  nextSlideOnWindowFocus: "off",
+
+                  swipe_threshold: 0.7,
+                  swipe_min_touches: 1,
+                  drag_block_vertical: false,
+
+
+
+                  keyboardNavigation: "on",
+
+                  navigationHAlign: "center",
+                  navigationVAlign: "bottom",
+                  navigationHOffset: 0,
+                  navigationVOffset: 20,
+
+                  soloArrowLeftHalign: "left",
+                  soloArrowLeftValign: "center",
+                  soloArrowLeftHOffset: 20,
+                  soloArrowLeftVOffset: 0,
+
+                  soloArrowRightHalign: "right",
+                  soloArrowRightValign: "center",
+                  soloArrowRightHOffset: 20,
+                  soloArrowRightVOffset: 0,
+
+                  shadow: 0,
+                  fullWidth: "on",
+                  fullScreen: "off",
+
+                  spinner: "spinner0",
+
+                  stopLoop: "off",
+                  stopAfterLoops: -1,
+                  stopAtSlide: -1,
+
+                  shuffle: "off",
+
+                  autoHeight: "off",
+                  forceFullWidth: "off",
+
+
+
+                  hideThumbsOnMobile: "off",
+                  hideNavDelayOnMobile: 1500,
+                  hideBulletsOnMobile: "off",
+                  hideArrowsOnMobile: "off",
+                  hideThumbsUnderResolution: 0,
+
+                  hideSliderAtLimit: 0,
+                  hideCaptionAtLimit: 769,
+                  hideAllCaptionAtLilmit: 0,
+                  startWithSlide: 0
+               });
+
+
+
+
+         }); /*ready*/
+      </script>
+
+
+      <!--/div-->
+      <!-- END REVOLUTION SLIDER -->
+
+   </section><!-- #TopContent -->
+   <!-- #Top -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <section id="tw-work" menu-sec="sec-01" data-color="#000" class="section tw-work-area gradient-6">
+      <div class="work-bg-pattern d-none d-lg-inline-block">
+      </div>
+      <!-- End Work BG Pattern -->
+      <div class="container">
+         <div class="row text-center">
+            <div class="col section-heading wow fadeInDown" data-wow-duration="1s">
+               <h1>
+                  Spot Offers 360-degree Marketing Benefits</h1>
+            </div>
+            <!-- End Col -->
+         </div>
+         <!-- End Row -->
+         <div class="row owl-carousel owl-theme" id="spot-list">
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/Geo-Targeted_Ads.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Launch Geo-targeted Ads</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+
+
+
+                  <p>Targeted Ads</p>
+
+
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/healthcare.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Advertise within your budget</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Cheap Advertising</p>
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/high_return_on_investement.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Get High Return on Investment</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>High Return</p>
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/improve_conversion_rate.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Convert footfall to sales?</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Improve conversion</p>
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/Measure_ROI.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Easy to measure ROI</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Measure ROI</p>
+
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/data_analytics.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Extract detailed report</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Data Analytics</p>
+
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/Peak_Hours.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Convert off-peak to peak hours</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Peak Hours</p>
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/target_ideal_customers.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Target Ideal Customers</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Target Customers</p>
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/Update_Ads.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Edit ads on the go</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Update Ads</p>
+
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/brand_development.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Better Brand Awareness</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Brand Development</p>
+               </div>
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/easy_to_share.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Make your offers viral</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End Process Wrapper -->
+                  <p>Easy to share</p>
+               </div>
+               <!-- End Word Process -->
+            </div>
+            <!-- End Col -->
+            <div>
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/360_degree_icons/customer_journey.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Reach customers at the start of their buying journey</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End Process Wrapper -->
+                  <p>Customer’s Journey</p>
+               </div>
+               <!-- End Work Process -->
+            </div>
+         </div>
+         <!-- End Row -->
+      </div>
+      <!-- End Container -->
+   </section>
+   <!-- End Features section -->
+
+
+
+
+
+
+
+
+
+
+
+   <section id="tw-services" class="section tw-services gradient-4" menu-sec="sec-01" data-color="#000">
+      <div class="container">
+         <div class="row text-center">
+            <div class="col section-heading wow fadeInDown" data-wow-deuration="1s" data-wow-delay=".2s">
+               <h1>
+                  <small></small>
+                  Our Services
+               </h1>
+               <!-- End Section Title -->
+               <span class="animate-border border-offwhite ml-auto mr-auto tw-mt-20"></span>
+            </div>
+            <!-- End Col -->
+         </div>
+         <!-- End Row -->
+         <div class="row" style="margin-top: 25px">
+            <div class="col-lg-3 col-md-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                  <a href="marketing.html">
+               <div class="tw-case-study-box tw-case-study-box-1">
+                  <div class="case-img study-bg-1 anim">
+                     <img src="images/client_images/Our Services/Marketing.webp" alt="" class="img-fluid ">
+                     <div class="work-text-content-anim">
+                        <h5 style="color:#fff">Lead, SEO, Social Media</h5>
+                     </div>
+                  </div>
+                  <!-- End case img -->
+                  <div class="casestudy-content">
+                     
+                        <h2>Marketing</h2>
+                    
+                  </div>
+               </div>
+            </a>
+               <!-- End case study box -->
+            </div>
+            <!-- End Col -->
+            <div class="col-lg-3 col-md-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                  <a href="strategy.html">
+               <div class="tw-case-study-box tw-case-study-box-2">
+                  <div class="case-img study-bg-2 anim">
+                     <img src="images/client_images/Our Services/Strategy.webp" alt="" class="img-fluid">
+                     <div class="work-text-content-anim">
+                        <h5 style="color:#fff">Omni Channel, Digital Strategy</h5>
+                     </div>
+                  </div>
+                  <div class="casestudy-content">
+                     
+                        <h2>Strategy</h2>
+                     
+
+                  </div>
+                  <!-- End case study content -->
+               </div>
+            </a>
+               <!-- End case study box -->
+            </div>
+            <!-- End Col -->
+            <div class="col-lg-3 col-md-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                  <a href="design.html">
+               <div class="tw-case-study-box tw-case-study-box-3">
+                  <div class="case-img study-bg-3 anim">
+                     <img src="images/client_images/Our Services/Design.webp" alt="" class="img-fluid">
+                     <div class="work-text-content-anim">
+                        <h5 style="color:#fff">Branding, Logo, Videography</h5>
+                     </div>
+                  </div>
+                  <div class="casestudy-content">
+                    
+                        <h2>Design</h2>
+                     
+
+                  </div>
+                  <!-- End case study content -->
+               </div>
+            </a>
+               <!-- End case study box -->
+            </div>
+            <!-- End col -->
+            <div class="col-lg-3 col-md-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                  <a href="development.html">
+               <div class="tw-case-study-box tw-case-study-box-4">
+                  <div class="case-img study-bg-6 anim">
+                     <img src="images/client_images/Our Services/Development.webp" alt="" class="img-fluid ">
+                     <div class="work-text-content-anim">
+                        <h5 style="color:#fff">Website, Apps, AR/VR</h5>
+                     </div>
+                  </div>
+                  <div class="casestudy-content">
+                     
+                        <h2>Development</h2>
+                     </a>
+
+                  </div>
+                  <!-- End case study content -->
+               </div>
+               <!-- End case study box -->
+            </div>
+            <!-- End col -->
+         </div>
+         <!-- End Row -->
+      </div>
+      <!-- Container End -->
+   </section>
+   <!-- TW case end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <section id="tw-industries" class="gradient-3 section tw-industries">
+      <div class="work-bg-pattern d-none d-lg-inline-block">
+
+      </div>
+      <!-- End Work BG Pattern -->
+      <div class="container">
+         <div class="row text-center">
+            <div class="col section-heading wow fadeInDown" data-wow-duration="1s">
+               <h1>
+                  <small></small>Industries We Help</h1>
+            </div>
+            <!-- End Col -->
+         </div>
+         <!-- End Row -->
+         <div class="row owl-carousel owl-theme" id="indus-list">
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/food_n_beverages.webp" id="feature"
+                              class="img-fluid" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Restaurant, Fast Food, Take Away</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Food & Beverages</p>
+               </div>
+
+               <!-- End Tw work process -->
+            </div>
+            <!-- End Col -->
+
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/beauty.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Spa, Parlour, Beauty Products</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Beauty</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+
+
+            <!-- End Col -->
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/electronics.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Phones, Computers, Fridge, Ovens</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Electronics</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+
+            <!-- End Col -->
+
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/fashion.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Clothes, Shoes, Accessories</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Fashion</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+
+            <!-- End Col -->
+
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/travel.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Holiday Package, Flights, Hotels</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Travel</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+
+            <!-- End Col -->
+
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/fitness.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Gym, Yoga, Dance, Aerobic</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Fitness</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+
+            <!-- End Col -->
+
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/pet.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Creche, Vets, Training, Pet Food</h5>
+                           </div>
+                        </div>
+
+                     </div>
+
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Pets</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+
+            <!-- End Col -->
+
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/education.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Schools, Tuition Centers</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Education</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+
+            <!-- End Col -->
+
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/service.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Plumbing, Electrician</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Services</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+            <!-- End Col -->
+
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/real_estate.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Developers, Agents</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Real Estate</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+            <!-- End Col  -->
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/healthcare.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Clinics, Hospitals, Medicine Stores</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Health Care</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+
+            <div>
+
+               <div class="tw-work-process item">
+                  <div class="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
+                     <div class="process-inner d-table-cell">
+                        <div class="port" style="border-radius: 50%">
+                           <img src="images/client_images/industries/jewellery.webp" id="feature" class="img-fluid"
+                              style="border-radius: 50%" />
+                           <div class="work-text-content">
+                              <h5 style="color:#fff">Gold, Diamonds, Gems, Imitation</h5>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <!-- End process wrapper -->
+                  <p>Jewellery</p>
+               </div>
+               <!-- End Tw work process -->
+
+            </div>
+         </div>
+
+         <!-- End Row -->
+      </div>
+      <!-- End Container -->
+   </section>
+   <!-- End Word Process -->
+
+   <section id="tw-tech" menu-sec="sec-06" data-color="#fff" class="section work-process gradient-10">
+         <div class="work-bg-pattern d-none d-lg-inline-block">
+            <!--img src="images/process/process_arrow.png" alt="" class="img-fluid wow fadeInLeft" data-wow-duration="1s"
+                    data-wow-delay="1.2s"-->
+         </div>
+         <!-- End Work BG Pattern -->
+         <div class="container">
+            <div class="row text-center">
+               <div class="col section-heading tw-text-white wow fadeInDown" data-wow-duration="1s">
+                  <h1>
+                     <small></small>Technologies <span> We Use</span></h1>
+               </div>
+               <!-- End Col -->
+            </div>
+            <!-- End Row -->
+            <div class="row">
+               <div class="col-lg-4 col-md-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s"
+                  style="padding: 50px">
+                  <a href="../tech1.html">
+                     <div class="tw-case-study-box tw-case-study-box-7">
+                        <div class="case-img study-bg-7 anim">
+                           <img src="images/client_images/Technology/Geo-location.webp" alt="" class="img-fluid ">
+                           <div class="work-text-content-anim">
+                              <h5 style="color:#fff">Location based data</h5>
+                           </div>
+                        </div>
+                        <!-- End case img -->
+                        <div class="casestudy-content">
+   
+                           <h2>Geolocation</h2>
+   
+                        </div>
+                     </div>
+                  </a>
+                  <!-- End case study box -->
+               </div>
+               <div class="col-lg-4 col-md-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s"
+                  style="padding: 50px">
+                  <a href="../tech2.html">
+                     <div class="tw-case-study-box tw-case-study-box-8">
+                        <div class="case-img study-bg-8 anim">
+                           <img src="images/client_images/Technology/Augmented Reality.webp" alt="" class="img-fluid ">
+                           <div class="work-text-content-anim">
+                              <h5 style="color:#fff">Mix of Virtual World with Real World</h5>
+                           </div>
+                        </div>
+                        <!-- End case img -->
+                        <div class="casestudy-content">
+   
+                           <h2>Augmented Reality</h2>
+   
+                        </div>
+                     </div>
+                  </a>
+                  <!-- End case study box -->
+               </div>
+               <div class="col-lg-4 col-md-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s"
+                  style="padding: 50px">
+                  <a href="../tech3.html">
+                     <div class="tw-case-study-box tw-case-study-box-9">
+                        <div class="case-img study-bg-9 anim">
+                           <img src="images/client_images/Technology/Beacon.webp" alt="" class="img-fluid ">
+                           <div class="work-text-content-anim">
+                              <h5 style="color:#fff">Beacon Technology</h5>
+                           </div>
+                        </div>
+                        <!-- End case img -->
+                        <div class="casestudy-content">
+   
+                           <h2>Beacon Technology</h2>
+   
+                        </div>
+                     </div>
+                  </a>
+                  <!-- End case study box -->
+               </div>
+            </div>
+   
+         </div>
+         <!-- End Container -->
+      </section>
+      <!-- End Word Process -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <section class="section gradient-6" data-color="#000">
+      <div class="container ">
+         <div class="row text-center">
+            <div class="col section-heading wow fadeInDown" data-wow-deuration="1s" data-wow-delay=".2s">
+               <h2>
+                  <small></small>
+                  Our Clients
+               </h2>
+               <!-- End Section Title -->
+               <span class="animate-border border-offwhite ml-auto mr-auto tw-mt-20"></span>
+            </div>
+            <!-- End Col -->
+         </div>
+         <section id="client-list" class="customer-logos slider">
+
+
+
+
+
+         </section>
+
+
+      </div>
+
+   </section>
+   <!-- End Tw Client -->
+
+   <section id="tw-blog" menu-sec="sec-07" data-color="#000" class="section tw-blog gradient-8">
+      <div class="container">
+         <div class="row text-center">
+            <div class="col section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+               <h1>
+                  <small></small>
+                  Blog <span></span>
+               </h1>
+            </div>
+            <!-- Col end -->
+         </div>
+         <!-- Row End -->
+         <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+            <div class="col-md-12 remove-padding">
+               <div class="owl-carousel owl-theme blog-slider" id="blog-list">
+               </div>
+            </div>
+            <div class="col-md-12 text-center ">
+               <a href="http://blog.chamaralabs.com/article/posts/merchent" class="btn btn-primary">view all</a>
+            </div>
+         </div>
+         <!-- End Row -->
+      </div>
+
+      <!-- Container End -->
+
+
+   </section>
+   <!-- End tw blog -->
+
+   <section id="tw-about" menu-sec="sec-08" data-color="#000" class="section tw-about gradient-9">
+         <div class="container">
+            <div class="row text-center">
+               <div class="col section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                  <a href="about.html">
+                  <h1>
+                     <small></small>
+                     About Us <span></span>
+                  </h1>
+               </a>
+               </div>
+               <!-- Col end -->
+            </div>
+            <!-- Row End -->
+            <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+              
+            </div>
+            <!-- End Row -->
+         </div>
+   
+         <!-- Container End -->
+   
+   
+      </section>
+      <!-- End tw blog -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <section id="tw-contact" class="section tw-contact gradient-7" menu-sec="sec-04" data-color="#000">
+      <div class="container">
+         <div class="row text-center">
+            <div class="col section-heading wow fadeInDown" data-wow-duration="1s">
+               <h2>
+                  <small></small>Contact Us</h2>
+            </div>
+            <!-- End Col -->
+         </div>
+         <div class="row mt-50">
+            <div class="col-md-8 wow fadeInRight">
+               <form name="contact-form" id="contact-form"
+                  action="http://incognitothemes.com/arcon-landing/php/contact.php" method="POST">
+                  <div class="messages"></div>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="form-group wow fadeTop" data-wow-delay="0.1s">
+                           <label class="sr-only" for="name">Name</label>
+                           <input type="text" name="name" class="form-control" id="name-2" required
+                              placeholder="Your Name" data-error="Your Name is Required">
+                           <div class="help-block with-errors mt-20"></div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="form-group wow fadeTop" data-wow-delay="0.2s">
+                           <label class="sr-only" for="email">Email</label>
+                           <input type="email" name="email" class="form-control" id="email-2" placeholder="Your Email"
+                              required data-error="Please Enter Valid Email">
+                           <div class="help-block with-errors mt-20"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="form-group wow fadeTop" data-wow-delay="0.3s">
+                     <label class="sr-only" for="subject">Subject</label>
+                     <input type="text" name="subject" class="form-control" id="subject-2" placeholder="Your Subject">
+                  </div>
+                  <div class="form-group wow fadeTop" data-wow-delay="0.4s">
+                     <label class="sr-only" for="message">Message</label>
+                     <textarea name="message" class="form-control" id="message-2" rows="7" placeholder="Your Message"
+                        required data-error="Please, Leave us a message"></textarea>
+                     <div class="help-block with-errors mt-20"></div>
+                  </div>
+                  <div class="wow fadeTop" data-wow-delay="0.5s">
+                     <div class="zoomIn"><button type="submit" name="submit" class="btn btn-primary ">Send
+                           Mail</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <div class="col-md-4 wow fadeInLeft">
+               <div class="wow fadeTop" data-wow-delay="0.1s">
+                  <h3>Postal Location</h3>
+                  <address>
+                     PO Box 16122 Toronto Eaton Centre,<br>
+                     220 The PATH Toronto, ON M5B 2H1, Canada<br>
+                     <abbr title="Phone">P:</abbr> (+1) 613 555-0105<br>
+                     <a href="#">arcon@example.com</a>
+                  </address>
+               </div>
+               <div class="wow fadeTop" data-wow-delay="0.2s">
+                  <h3>Global Location</h3>
+                  <address>
+                     PO Box 16122 Toronto Eaton Centre,<br>
+                     220 The PATH Toronto, ON M5B 2H1, Canada<br>
+                     <abbr title="Phone">P:</abbr> (+1) 613 555-0105
+                  </address>
+               </div>
+               <div class="wow fadeTop" data-wow-delay="0.3s">
+                  <h3>Work Timings</h3>
+                  <p> <span>Mon - Fri: 10am to 7pm</span> <br>
+                     <span>Sat : 8am to 12pm</span> </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer id="tw-footer" menu-sec="sec-08" data-color="#fff" class="section tw-footer" style="padding-top: 75px">
+      <div class="container">
+         <div class="footer-contact">
+            <div class="row">
+               <div class="col-lg-4">
+                  <ul class="footer-contact-info">
+                     <li>
+                        <span><i class="icon icon-map-marker2"></i></span>
+                        <div class="info-wrapper">
+                           <p class="info-title">Find us</p>
+                           <p class="info-subtitle">1010 Avenue, NY 90001, USA</p>
+                        </div>
+                     </li>
+                     <!-- li End -->
+                  </ul>
+                  <!-- Footer Info End -->
+               </div>
+               <!-- Col End -->
+               <div class="col-lg-4">
+                  <ul class="footer-contact-info">
+                     <li>
+                        <span><i class="icon icon-phone3"></i></span>
+                        <div class="info-wrapper">
+                           <p class="info-title">Call us</p>
+                           <p class="info-subtitle">989-554-6987</p>
+                        </div>
+                     </li>
+                     <!-- li End -->
+                  </ul>
+                  <!-- Footer Info End -->
+               </div>
+               <!-- Col End -->
+               <div class="col-lg-4">
+                  <ul class="footer-contact-info">
+                     <li>
+                        <span><i class="icon icon-envelope"></i></span>
+                        <div class="info-wrapper">
+                           <p class="info-title">Mail us</p>
+                           <p class="info-subtitle">mail@example.com</p>
+                        </div>
+                     </li>
+                     <!-- li End -->
+                  </ul>
+                  <!-- Footer Info End -->
+               </div>
+               <!-- Col End -->
+            </div>
+         </div>
+         <div class="footer-content">
+            <div class="footer-pattern">
+               <img src="images/footer_map.png" alt="">
+            </div>
+            <div class="row">
+               <div class="col-md-12 col-lg-4">
+                  <div class="tw-footer-info-box">
+                     <a href="index.html" class="footer-logo">
+                        <img src="images/footer_logo.png" alt="footer_logo" class="img-fluid">
+                     </a>
+                     <p class="footer-info-text">
+                        Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut
+                     </p>
+                     <div class="footer-social-link">
+                        <h3>Follow us</h3>
+                        <ul>
+                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                     </div>
+                     <!-- End Social link -->
+                  </div>
+                  <!-- End Footer info -->
+               </div>
+               <!-- End Col -->
+
+               <div class="col-md-12 col-lg-4">
+                  <div class="footer-widget">
+                     <div class="section-heading">
+                        <h3>Useful Links</h3>
+                     </div>
+                     <ul>
+                        <li><a href="#">Search Engine</a></li>
+                        <li><a href="#">Data analysis</a></li>
+                        <li><a href="#">Disital marketing</a></li>
+                        <li><a href="#">Web Analytics</a></li>
+                        <li><a href="#">Social Marketing</a></li>
+                     </ul>
+                     <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Expert Team</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Latest News</a></li>
+                     </ul>
+                  </div>
+                  <!-- End Footer Widget -->
+               </div>
+               <!-- End col -->
+               <div class="col-md-12 col-lg-4">
+                  <div class="footer-widget">
+                     <div class="section-heading">
+                        <h3>Subscribe</h3>
+                     </div>
+                     <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                     <form action="#">
+                        <div class="form-row">
+                           <div class="col tw-footer-form">
+                              <input type="email" class="form-control" placeholder="Email Address">
+                              <button type="submit"><i class="fa fa-send"></i></button>
+                           </div>
+                        </div>
+                     </form>
+                     <!-- End form -->
+                  </div>
+                  <!-- End footer widget -->
+               </div>
+               <!-- End Col -->
+            </div>
+            <!-- End Widget Row -->
+         </div>
+      </div>
+      <!-- End Contact Container -->
+
+
+      <div class="copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 col-md-12">
+                  <span>Copyright &copy; 2018, All Right Reserved SeoTime</span>
+               </div>
+               <!-- End Col -->
+               <div class="col-lg-6 col-md-12">
+                  <div class="copyright-menu">
+                     <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- End col -->
+            </div>
+            <!-- End Row -->
+         </div>
+         <!-- End Copyright Container -->
+      </div>
+      <!-- End Copyright -->
+      <!-- Back to top -->
+      <div id="back-to-top" class="back-to-top">
+         <button class="btn btn-dark" title="Back to Top">
+            <i class="fa fa-angle-up"></i>
+         </button>
+      </div>
+      <!-- End Back to top -->
+   </footer>
+
+
+
+   <!-- End Contact Container -->
+
+
+
+
+   <!-- Javascripts File
+      =============================================================================-->
+
+   <!-- initialize jQuery Library -->
+   <script src="js/jquery-2.0.0.min.js"></script>
+   <!-- Popper JS -->
+   <script src="js/popper.min.js"></script>
+   <!-- Bootstrap jQuery -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- Owl Carousel -->
+   <script src="js/owl-carousel.2.3.0.min.js"></script>
+
+   <script src="js/animation_text/SplitText.min.js"></script>
+   <script src="js/animation_text/TweenMax.min.js"></script>
+
+   <!-- Waypoint -->
+   <script src="js/waypoints.min.js"></script>
+   <!-- Counter Up -->
+   <script src="js/jquery.counterup.min.js"></script>
+   <!-- Video Popup -->
+   <script src="js/jquery.magnific.popup.js"></script>
+   <!-- Smooth scroll -->
+   <!--script src="js/smoothscroll.js"></script-->
+   <!-- WoW js -->
+   <script src="js/wow.min.js"></script>
+   <!-- Template Custom -->
+   <!-- <script src="js/main.js"></script> -->
+   <!-- slick -->
+   <script src="js/slick.js"></script>
+
+   <!--Sliding mobile js-->
+   <script src="lib/js/greensock.js"></script>
+   <script src="lib/js/layerslider.transitions.js"></script>
+   <script src="lib/js/layerslider.kreaturamedia.jquery.js"></script>
+
+   <script src="js/jquery-sectionsnap.js"></script>
+
+   <script src="js/app-functions.js"></script>
+   <script src="js/app.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

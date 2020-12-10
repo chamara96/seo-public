@@ -51,7 +51,7 @@ $(function ($) {
         changeWebSitetab("./images/client_images/center_logo_new.webp")
         $('.tp-leftarrow').append('<i id="me_s_left" class="icon icon-left-arrow2"></i>')
         $('.tp-rightarrow').append('<i id="me_s_right" class="icon icon-right-arrow2"></i>')
-
+        
 
 
         //========================================== Start Copy from js/spot.js file============================
@@ -64,7 +64,7 @@ $(function ($) {
 
         //========================================== Start Copy from js/client.js file============================
         $.ajax({
-            url: "/imagecarousel",
+            url: "http://blog.chamaralabs.com/imagecarousel",
             // url: "http://127.0.0.1:5500/payloads/clients.json",
             type: 'GET',
             dataType: 'json', // added data type
@@ -78,7 +78,7 @@ $(function ($) {
 
         var blogs = [];
         $.ajax({
-            url: "/article/posts/index_data_merchant",
+            url: "http://blog.chamaralabs.com/article/posts/index_data_merchent",
             type: 'GET',
             dataType: 'json', // added data type
             success: function (res) {
@@ -206,14 +206,14 @@ $(function ($) {
         }
 
         $.ajax({
-            url: "/sendmailcontact?name="+name+"&email="+email+"&subject="+subject+"&msgbody="+message,
+            url: "http://blog.chamaralabs.com/sendmailcontact?name="+name+"&email="+email+"&subject="+subject+"&msgbody="+message,
             type: 'GET',
             dataType: 'json', // added data type
             success: function (res) {
                 console.log("res" + res)
             }
         });
-
+        
 
         return false;
 

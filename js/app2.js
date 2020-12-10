@@ -28,10 +28,10 @@ $(function ($) {
 
     });
 
-    /*window.scrollBy({
+    /*window.scrollBy({ 
         top: 500, // could be negative value
-        left: 0,
-        behavior: 'smooth'
+        left: 0, 
+        behavior: 'smooth' 
       });*/
 
 
@@ -51,9 +51,9 @@ $(function ($) {
 
 
     $(document).ready(function () {
-        changeRootLink("/seo")
-        changeWebSiteLogo("./images/client_images/center_logo_new.webp")
-        changeWebSitetab("./images/client_images/center_logo_new.webp")
+        //changeRootLink("/seo")
+        //changeWebSiteLogo("./images/client_images/center_logo_new.webp")
+        //changeWebSitetab("./images/client_images/center_logo_new.webp")
         /*ttp://chamaralabs.com/seo-server-testing-6/seo/*/
         /*$("#main_div_id").sectionsnap({
             'delay': 100,// time dilay (ms)
@@ -75,7 +75,7 @@ $(function ($) {
              autoplayHoverPause: true,
              items: 1,
              loop: true
-
+    
          });*/
 
         var owl = $('#home-slideshow');
@@ -95,48 +95,48 @@ $(function ($) {
         var text1 = `<div class="slide-down">
         <h2 class="title" style="font-weight: bold;">Find Best Offers <br> & Deals Near You</h2>
         <p class="intro" style="text-align: center">Find Best Offers, Deals, Cash <br> Vouchers and Businesses Near You
-        </p>
+        </p> 
      </div>`
-
-
+     
+ 
 
 var text2 = `<div class="slide-down">
      <h2 class="title" style="font-weight: bold;">Un-conditional <br> Free Trial! </h2>
      <p class="intro" style="text-align: center">Get products and services <br> for FREE with NO CONDITIONS!
-     </p>
+     </p> 
   </div>`
 
         var text3 = `<div class="slide-down">
      <h2 class="title" style="font-weight: bold;">Home Delivery <br> (Coming Soon)</h2>
      <p class="intro" style="text-align: center">Buy from your favourite stores <br> near you & Get Home Delivery
-     </p>
+     </p> 
   </div>`
 
         var text4 = `<div class="slide-down">
         <h2 class="title" style="font-weight: bold;">Welcome Gift</h2>
         <p class="intro" style="text-align: center">Register and get Rs 5,000 <br> Unconditional Cash Voucher Instantly
-        </p>
+        </p> 
      </div>`
 
         var text5 = `<div class="slide-down">
         <h2 class="title" style="font-weight: bold;">Work From Home <br> & Earn Money</h2>
         <p class="intro" style="text-align: center">Like, comment & share on social <br> media and EARN UNLIMITED MONEY
-        </p>
+        </p> 
      </div>`
 
         var text6 = `<div class="slide-down">
         <h2 class="title" style="font-weight: bold;">Play with New Technology</h2>
         <p class="intro" style="text-align: center">Have fun with Augmented Reality, <br> unlock special Vouchers & Offers
-        </p>
+        </p> 
      </div>`
 
      var text7 = `<div class="slide-down">
      <h2 class="title" style="font-weight: bold;">Win Spot Deals</h2>
      <p class="intro" style="text-align: center">Stand a chance to win <br> Mega Spot Deals with only Rs.10
-     </p>
+     </p> 
   </div>`
 
-        var texts = [ text1, text2, text3, text4, text5, text6, text7]
+        var texts = [ text1, text2, text3, text4, text5, text6, text7] 
 
         owl.on('changed.owl.carousel', function (event) {
 
@@ -146,7 +146,7 @@ var text2 = `<div class="slide-down">
             }
             $('#side-slideshow').empty();
             $('#side-slideshow').append(texts[i]);
-
+            
         })
 
 
@@ -174,7 +174,7 @@ var text2 = `<div class="slide-down">
 
         //========================================== Start Copy from js/client.js file============================
         $.ajax({
-            url: "/imagecarousel",
+            url: "http://blog.chamaralabs.com/imagecarousel",
             // url: "http://127.0.0.1:5500/payloads/clients.json",
             type: 'GET',
             dataType: 'json', // added data type
@@ -195,14 +195,14 @@ var text2 = `<div class="slide-down">
                 jobs = res.data;
                 // console.log(blogs)
                setJobs(jobs);
-
-
+               
+            
 
             }
         });*/
         var jobs = [];
         $.ajax({
-            url: "/careers/index_data",
+            url: "http://blog.chamaralabs.com/careers/index_data",
             type: 'GET',
             dataType: 'json', // added data type
             success: function (res) {
@@ -216,7 +216,7 @@ var text2 = `<div class="slide-down">
 
         var blogs = [];
         $.ajax({
-            url: "/article/posts/index_data_user",
+            url: "http://blog.chamaralabs.com/article/posts/index_data_user",
             type: 'GET',
             dataType: 'json', // added data type
             success: function (res) {
@@ -253,14 +253,14 @@ var text2 = `<div class="slide-down">
         }
 
         $.ajax({
-            url: "/sendmailcontact?name="+name+"&email="+email+"&subject="+subject+"&msgbody="+message,
+            url: "http://blog.chamaralabs.com/sendmailcontact?name="+name+"&email="+email+"&subject="+subject+"&msgbody="+message,
             type: 'GET',
             dataType: 'json', // added data type
             success: function (res) {
                 console.log("res" + res)
             }
         });
-
+        
 
         return false;
 

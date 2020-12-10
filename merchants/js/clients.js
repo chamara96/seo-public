@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 
     $.ajax({
-        url: "/imagecarousel",
+        url: "http://blog.chamaralabs.com/imagecarousel",
         // url: "http://127.0.0.1:5500/payloads/clients.json",
         type: 'GET',
         dataType: 'json', // added data type
@@ -21,10 +21,10 @@ $(document).ready(function () {
         }
     });
 
-
+    
     var blogs = [];
     $.ajax({
-        url: "/article/posts/index_data",
+        url: "http://blog.chamaralabs.com/article/posts/index_data",
         type: 'GET',
         dataType: 'json', // added data type
         success: function (res) {
@@ -44,9 +44,9 @@ function setSlick() {
     var html = '';
     for (let i = 0; i < merchants.length; i++) {
 
-        /*html = `<a href="${merchants[i].web_url}" class="slide"><img src="/${merchants[i].image_url}"></a>`;*/
+        /*html = `<a href="${merchants[i].web_url}" class="slide"><img src="http://blog.chamaralabs.com/${merchants[i].image_url}"></a>`;*/
         html = `<div class="slide cont" style="padding: 5px 10px; vertical-align:top"><a target="_blank" rel="noopener noreferrer" href="${merchants[i].web_url}" > <div class="port wow fadeIn">
-                 <img id="c_img"  src="/${merchants[i].image_url}" class="img-fluid" style="width:100%;"/>
+                 <img id="c_img"  src="http://blog.chamaralabs.com/${merchants[i].image_url}" class="img-fluid" style="width:100%;"/>
                 <div class="work-text-content">
                   <h3 style="color:#fff">${merchants[i].title}</h3>
                 </div>
@@ -92,7 +92,7 @@ function setSlick() {
 function destroySlick() {
     if ($('.customer-logos').hasClass('slick-initialized')) {
         $('.customer-logos').slick('destroy');
-    }
+    } 
 }
 
 function setBlogs(blogs){
@@ -101,15 +101,15 @@ function setBlogs(blogs){
     ];
     $("#blog-list").empty();
     var html = '';
-
+    
     for (let j = 0; j < blogs.length; j++) {
-
+        
         /*var name = blogs[j].name.split(' ')
         console.log(name)
         html = `<div class="col-lg-4 col-md-12">
     <div class="tw-latest-post" style="text-align:left">
         <div class="latest-post-media text-center">
-            <img src="/${blogs[j].featured_image}" alt="blog_image_one" class="img-fluid" style="height: 200px">
+            <img src="http://blog.chamaralabs.com/${blogs[j].featured_image}" alt="blog_image_one" class="img-fluid" style="height: 200px">
         </div>
         <!-- End Latest Post Media -->
         <div class="post-body" style="height: 500px; overflow-y : scroll">
@@ -118,7 +118,7 @@ function setBlogs(blogs){
                     <span class="date">${blogs[j].published_at.substring(8,10)}</span>
                     <span class="month">${monthNames[blogs[j].published_at.substring(5,7) - 1]}</span>
 
-
+                
                 </div>
             </div>
             <!-- End Post Item Date -->
@@ -147,22 +147,22 @@ function setBlogs(blogs){
     <!-- End Tw Latest Post -->
 </div>
 <!-- End Col -->`;*/
-
+        
 
         html = `<div class="post item">
-        <div class="post-img"> <img class="img-responsive" src="/${blogs[j].featured_image}" alt=""/> </div>
+        <div class="post-img"> <img class="img-responsive" src="http://blog.chamaralabs.com/${blogs[j].featured_image}" alt=""/> </div>
         <div class="post-info" style="margin-left:0">
           <h3><a href="#">${blogs[j].name}</a></h3>
           <h6>${monthNames[blogs[j].published_at.substring(5,7) - 1]} ${blogs[j].published_at.substring(8,10)}, ${blogs[j].published_at.substring(0,4)}</h6>
           <p>${blogs[j].intro}</p>
-          <a class="readmore" href="/article/posts/${blogs[j].encode_id}/${blogs[j].slug}"><span>Read More</span></a> </div>
+          <a class="readmore" href="http://blog.chamaralabs.com/article/posts/${blogs[j].encode_id}/${blogs[j].slug}"><span>Read More</span></a> </div>
       </div>`;
       /*$("#blog-list").append(html);*/
         $("#blog-list").append(html);
     }
 
 
-
+    
 }
 
 function setOwl(){
