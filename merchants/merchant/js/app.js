@@ -68,7 +68,7 @@ $(function ($) {
 
         //========================================== Start Copy from js/client.js file============================
         $.ajax({
-            url: "http://blog.chamaralabs.com/imagecarousel",
+            url: "/imagecarousel",
             // url: "http://127.0.0.1:5500/payloads/clients.json",
             type: 'GET',
             dataType: 'json', // added data type
@@ -82,7 +82,7 @@ $(function ($) {
 
         var blogs = [];
         $.ajax({
-            url: "http://blog.chamaralabs.com/article/posts/index_data_merchent",
+            url: "/article/posts/index_data_merchent",
             type: 'GET',
             dataType: 'json', // added data type
             success: function (res) {

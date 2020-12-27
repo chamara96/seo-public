@@ -174,7 +174,7 @@ var text2 = `<div class="slide-down">
 
         //========================================== Start Copy from js/client.js file============================
         $.ajax({
-            url: "http://blog.chamaralabs.com/imagecarousel",
+            url: "/imagecarousel",
             // url: "http://127.0.0.1:5500/payloads/clients.json",
             type: 'GET',
             dataType: 'json', // added data type
@@ -202,7 +202,7 @@ var text2 = `<div class="slide-down">
         });*/
         var jobs = [];
         $.ajax({
-            url: "http://blog.chamaralabs.com/careers/index_data",
+            url: "/careers/index_data",
             type: 'GET',
             dataType: 'json', // added data type
             success: function (res) {
@@ -216,7 +216,7 @@ var text2 = `<div class="slide-down">
 
         var blogs = [];
         $.ajax({
-            url: "http://blog.chamaralabs.com/article/posts/index_data_user",
+            url: "/article/posts/index_data_user",
             type: 'GET',
             dataType: 'json', // added data type
             success: function (res) {
@@ -253,7 +253,7 @@ var text2 = `<div class="slide-down">
         }
 
         $.ajax({
-            url: "http://blog.chamaralabs.com/sendmailcontact?name="+name+"&email="+email+"&subject="+subject+"&msgbody="+message,
+            url: "/sendmailcontact?name="+name+"&email="+email+"&subject="+subject+"&msgbody="+message,
             type: 'GET',
             dataType: 'json', // added data type
             success: function (res) {

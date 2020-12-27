@@ -140,9 +140,9 @@ function setSlick() {
     var html = '';
     for (let i = 0; i < merchants.length; i++) {
 
-        /*html = `<a href="${merchants[i].web_url}" class="slide"><img src="http://blog.chamaralabs.com/${merchants[i].image_url}"></a>`;*/
+        /*html = `<a href="${merchants[i].web_url}" class="slide"><img src="/${merchants[i].image_url}"></a>`;*/
         html = `<div class="slide cont" style="padding: 5px 10px; vertical-align:top"><a target="_blank" rel="noopener noreferrer" href="${merchants[i].web_url}" > <div class="port wow fadeIn">
-                 <img id="c_img"  src="http://blog.chamaralabs.com/${merchants[i].image_url}" class="img-fluid c_img" style="width:100%;"/>
+                 <img id="c_img"  src="/${merchants[i].image_url}" class="img-fluid c_img" style="width:100%;"/>
                 <div class="work-text-content">
                   <h3 style="color:#fff">${merchants[i].title}</h3>
                 </div>
@@ -204,7 +204,7 @@ function destroySlick() {
         html = `<div class="col-lg-4 col-md-12">
     <div class="tw-latest-post" style="text-align:left">
         <div class="latest-post-media text-center">
-            <img src="http://blog.chamaralabs.com/${blogs[j].featured_image}" alt="blog_image_one" class="img-fluid" style="height: 200px">
+            <img src="/${blogs[j].featured_image}" alt="blog_image_one" class="img-fluid" style="height: 200px">
         </div>
         <!-- End Latest Post Media -->
         <div class="post-body" style="height: 500px; overflow-y : scroll">
@@ -341,7 +341,7 @@ function setJobs(jobs) {
         html = `<tr>
       <td>${jobs[j].jobtitle}</td>
       <td>${jobs[j].city}</td>
-      <td> <a target="_blank" rel="noopener noreferrer" class="readmore" href="http://blog.chamaralabs.com/careers/${jobs[j].encode_id}/${jobs[j].jobtitle}"><span class="apply">Apply</span></a></td>
+      <td> <a target="_blank" rel="noopener noreferrer" class="readmore" href="/careers/${jobs[j].encode_id}/${jobs[j].jobtitle}"><span class="apply">Apply</span></a></td>
    </tr>`;
         $("#job-table").append(html);
 
@@ -395,16 +395,16 @@ function setBlogs(blogs) {
 
     for (let j = 0; j < blogs.length; j++) {
         html = `<div class="post item">
-        <div class="post-img"><a target="_blank" rel="noopener noreferrer" href="http://blog.chamaralabs.com/blog/${blogs[j].encode_id}/${blogs[j].slug}">  <img class="img-responsive" src="http://blog.chamaralabs.com/${blogs[j].featured_image}" alt=""/> </a> </div>
+        <div class="post-img"><a target="_blank" rel="noopener noreferrer" href="/blog/${blogs[j].encode_id}/${blogs[j].slug}">  <img class="img-responsive" src="/${blogs[j].featured_image}" alt=""/> </a> </div>
         <div class="post-info" style="margin-left:0">
-          <h3><a target="_blank" rel="noopener noreferrer" href="http://blog.chamaralabs.com/blog/${blogs[j].encode_id}/${blogs[j].slug}" >${blogs[j].name}</a></h3>
+          <h3><a target="_blank" rel="noopener noreferrer" href="/blog/${blogs[j].encode_id}/${blogs[j].slug}" >${blogs[j].name}</a></h3>
           <h6>${monthNames[blogs[j].published_at.substring(5, 7) - 1]} ${blogs[j].published_at.substring(8, 10)}, ${blogs[j].published_at.substring(0, 4)}</h6>
           <div style="height:185px; overflow: hidden">
           <p>${blogs[j].intro}</p>
           </div>
           </div>
           <div style="background:#212121; padding-bottom:30px">
-           <a target="_blank" rel="noopener noreferrer" class="readmore" href="http://blog.chamaralabs.com/blog/${blogs[j].encode_id}/${blogs[j].slug}"><span>Read More</span></a></div>
+           <a target="_blank" rel="noopener noreferrer" class="readmore" href="/blog/${blogs[j].encode_id}/${blogs[j].slug}"><span>Read More</span></a></div>
       </div>`;
         /*$("#blog-list").append(html);*/
         $("#blog-list").append(html);
